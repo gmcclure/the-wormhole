@@ -1,0 +1,91 @@
+body {
+  background: #333;
+  color: white;
+  font-family: dosis, sans-serif;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+h1 {
+  font-family: Vollkorn, serif;
+  font-size: 2.5em;
+  margin-bottom: -20px;
+}
+
+#context {
+  width: 100%;
+  padding: 1em;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.storybox {
+  background-color: #000;
+  border-radius: 4px;
+  margin: 0.5em 0.5em;
+  padding: 0.5em;
+  height: 280px;
+  flex-basis: 200px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.storyimage-frame {
+  display: table-cell;
+  min-height: 200px;
+  vertical-align: middle;
+}
+
+.storyimage {
+  max-height: 200px;
+  width: 200px;
+}
+
+.storybox a {
+  color: white;
+  text-decoration: none;
+}
+
+.byline a:hover {
+  text-decoration: underline;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.truncate {
+  width: 190px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.talk-button {
+  float: right;
+}
+
+.social:first-letter {
+  color: red;
+}
+
+.talk-button {
+  background-color: #555;
+  border: none;
+  border-radius: 20%;
+  color: white;
+}
+
+.byline {
+  font-size: 14px;
+  font-style: italic;
+}
